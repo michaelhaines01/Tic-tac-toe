@@ -1,0 +1,74 @@
+body{
+  background-color:black;
+}
+
+@font-face {
+  font-family: 'Chalk Stick';
+  src: url('ChalkStick.woff2') format('woff2'),
+      url('ChalkStick.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#gameboard{
+background-color: white;
+margin:auto;
+height:450px;
+width: 450px;
+display: grid;
+grid-template-columns: repeat(3,minmax(0, 1fr ));
+grid-template-rows: repeat(3,minmax(0, 1fr ));
+padding:0px;
+grid-gap: 20px;
+}
+
+.marker{
+  background-color: black;
+  padding: 40px;
+  font-size: 90px;
+  text-align: center;
+  color:white;
+  font-family: 'Chalk Stick';
+}
+
+.header{
+  text-align: center;
+  margin: 0;
+  color:white;
+  font-family: 'Chalk Stick';
+  font-size: 80px;
+}
+
+.header2{
+  color:white;
+  font-family: 'Chalk Stick';
+  font-size: 60px;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.header2_wrapper {
+  height: 60px;
+  display:flex;
+  justify-content: center;
+}
+
+.btn-wrapper{
+  color:black;
+  display:flex;
+  justify-content: center;
+  padding-top:10px;
+}
+
+#btnreset{
+  background-color: black; 
+  border:none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Chalk Stick';
+  padding: 15px 32px;
+  display: inline-block;
+  
+  }
