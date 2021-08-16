@@ -1,27 +1,29 @@
 <html lang="en">
-<head>
+  <head>
     <title>Tictactoe</title>
-    <link rel="stylesheet" href="styletictactoe.css">
-</head>
-<body>
-    <h1 class = "header">Tic Tac Toe</h1>
+    <link rel="stylesheet" href="styletictactoe.css" />
+  </head>
+  <body>
+    <h1 class="header">Tic Tac Toe</h1>
     <div class="header2_wrapper">
-        <p class = "header2" id = 'winner'> </p>
+      <p class="header2" id="winner"></p>
     </div>
-    <div id = "gameboard">   
-        <div id = "0" class = 'marker'>""</div>
-        <div id = "1"  class = 'marker'>""</div>
-        <div id = "2"  class = 'marker'>""</div>
-        <div id = "3"  class = 'marker'>""</div>
-        <div id = "4"  class = 'marker'>""</div>
-        <div id = "5"  class = 'marker'>""</div>
-        <div id = "6"  class = 'marker'>""</div>
-        <div id = "7"  class = 'marker'>""</div>
-        <div id = "8"  class = 'marker'>""</div>
+    <div class="gameboard-container">
+      <div id="gameboard">
+        <div id="0" class="marker">""</div>
+        <div id="1" class="marker">""</div>
+        <div id="2" class="marker">""</div>
+        <div id="3" class="marker">""</div>
+        <div id="4" class="marker">""</div>
+        <div id="5" class="marker">""</div>
+        <div id="6" class="marker">""</div>
+        <div id="7" class="marker">""</div>
+        <div id="8" class="marker">""</div>
+      </div>
+      <div class="btn-wrapper">
+        <button id="btnreset">RESET</button>
+      </div>
     </div>
-    <div class ="btn-wrapper">
-        <button id ='btnreset'>RESET</button>
-    </div>
-</body>
-</html>  
+  </body>
+</html>
 <script src="tictactoe.js"></script>
